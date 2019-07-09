@@ -17,6 +17,8 @@ import testcase.tool.isElement as isElement
 import pytesser3
 from PIL import Image
 from bs4 import BeautifulSoup
+import testcase.pc.conmments.conmments as comments
+import testcase.pc.wiki.uploadFile as uploadFile
 
 
 import testcase.pc.login as login
@@ -33,32 +35,9 @@ class Comments(unittest.TestCase):
 
 
     def test_comments(self):
-        """修改头像"""
-        driver = self.driver
-        driver.get("https://wiki.mbalib.com")
-        time.sleep(5)
-        # 关闭橱窗广告
-        ad_close = isElement.find_Element(self, 'id', 'ad-close')
-        if ad_close:
-            driver.find_element_by_id('ad-close').click()
-        # 点击工具箱
-        # 准备悬停的元素
-        move_element = driver.find_element_by_css_selector("div#p-tb>h5")
-        # 悬停
-        ActionChains(driver).move_to_element(move_element).perform()
-        driver.find_element_by_link_text("上传文件").click()
-        time.sleep(10)
-        #获取到页面元素代码
-        tree = driver.page_source
-        soup = BeautifulSoup(tree, 'lxml')
-        #定位到图片img
-        tag = soup.select_one('#upload > table > tbody > tr:nth-child(4) > td:nth-child(2) > img')
-        #获取到图片地址
-        imgCodeUrl=tag.get('src')
-        imgCodeUrl=imgCodeUrl.replace('//','')
-        print("downUrlString",imgCodeUrl)
-        #保存到项目
-        urllib.request.urlretrieve(imgCodeUrl, 'D:/SensitiveWords/image/imgCode.jpg')
+        """test"""
+        #comments.Comments.test_wiki_comments(self)
+        uploadFile.UploadFile.test_uploadImages(self)
 
     def tearDown(self):
         self.driver.close()

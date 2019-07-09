@@ -46,7 +46,7 @@ class Passport(unittest.TestCase):
                 driver.switch_to_window(handle)
                 driver.find_element_by_css_selector("label.ui_button").click()
                 time.sleep(5)
-                os.system("C:\\Users\\ce\\Desktop\\upfile.exe")
+                os.system("C:/AutomatedTesting/SensitiveWordsTest/testcase/tool/upfile.exe")
                 time.sleep(10)
                 driver.find_element_by_link_text("确定").click()
                 # 判断是否有选择图片

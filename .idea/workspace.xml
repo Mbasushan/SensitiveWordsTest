@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e908482a-c931-42fb-9f1f-5603887f17ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_report/2019-06-28 11-18-58.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SensitiveWords.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SensitiveWords.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/pc/conmments/test_report" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/pc/passport/nickName.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/pc/passport/nickName.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/pc/wiki/uploadFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/pc/wiki/uploadFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/tool/upfile.exe" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/tool/upfile.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +18,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SensitiveWords$run.coverage" NAME="run Coverage Results" MODIFIED="1561691937501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1562581233846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SensitiveWords$login.coverage" NAME="login Coverage Results" MODIFIED="1561626569043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/pc" />
     <SUITE FILE_PATH="coverage/SensitiveWords$conmments.coverage" NAME="conmments Coverage Results" MODIFIED="1561692895405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/pc/conmments" />
-    <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_for_test_test1.coverage" NAME="Unittests for test.test1 Coverage Results" MODIFIED="1561689289697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_in_nickName_py.coverage" NAME="Unittests in nickName.py Coverage Results" MODIFIED="1561707987603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/pc/passport" />
-    <SUITE FILE_PATH="coverage/SensitiveWords$CommentsIinterface.coverage" NAME="CommentsIinterface Coverage Results" MODIFIED="1562051875223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1561691116257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_for_test_Comments_test_news_comments.coverage" NAME="Unittests for test.Comments.test_news_comments Coverage Results" MODIFIED="1561716095573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SensitiveWords$CommentsIinterface__1_.coverage" NAME="CommentsIinterface (1) Coverage Results" MODIFIED="1561620563134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_in_test_py__1_.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1562574989494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_for_conmments_Comments.coverage" NAME="Unittests for conmments.Comments Coverage Results" MODIFIED="1561604771039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/pc/conmments" />
+    <SUITE FILE_PATH="coverage/SensitiveWordsTest$Unittests_in_test_py__1_.coverage" NAME="Unittests in test.py (1) Coverage Results" MODIFIED="1562665043407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_in_test_py__1_.coverage" NAME="Unittests in test.py (1) Coverage Results" MODIFIED="1562148815358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_for_test_test1.coverage" NAME="Unittests for test.test1 Coverage Results" MODIFIED="1561689289697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SensitiveWords$CommentsIinterface.coverage" NAME="CommentsIinterface Coverage Results" MODIFIED="1562051875223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SensitiveWords$CommentsIinterface__1_.coverage" NAME="CommentsIinterface (1) Coverage Results" MODIFIED="1561620563134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SensitiveWords$Unittests_in_nickName_py.coverage" NAME="Unittests in nickName.py Coverage Results" MODIFIED="1561707987603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/pc/passport" />
+    <SUITE FILE_PATH="coverage/SensitiveWords$run.coverage" NAME="run Coverage Results" MODIFIED="1561691937501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SensitiveWords$connectSQL.coverage" NAME="connectSQL Coverage Results" MODIFIED="1561543597783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SensitiveWords$login.coverage" NAME="login Coverage Results" MODIFIED="1561626569043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/pc" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding>
-                <element signature="e#91#102#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -44,8 +46,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/pc/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="406">
+              <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/pc/conmments/conmments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#46#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/pc/passport/nickName.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="48" column="54" selection-start-line="48" selection-start-column="16" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="1512">
+              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
               <folding>
                 <element signature="e#46#55#0" expanded="true" />
               </folding>
@@ -65,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/pc/wiki/uploadFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="-404">
+              <caret line="66" column="71" lean-forward="true" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -93,17 +107,17 @@
         <option value="$PROJECT_DIR$/testcase/test.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/testcase/CommentsIinterface.py" />
-        <option value="$PROJECT_DIR$/testcase/pc/passport/nickName.py" />
         <option value="$PROJECT_DIR$/testcase/pc/conmments/conmments.py" />
-        <option value="$PROJECT_DIR$/testcase/pc/login.py" />
+        <option value="$PROJECT_DIR$/testcase/pc/passport/nickName.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/testcase/pc/login.py" />
         <option value="$PROJECT_DIR$/testcase/pc/wiki/uploadFile.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="938" />
-    <option name="y" value="129" />
+    <option name="x" value="818" />
+    <option name="y" value="26" />
     <option name="width" value="1239" />
     <option name="height" value="1056" />
   </component>
@@ -113,45 +127,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SensitiveWords" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SensitiveWords" type="462c0819:PsiDirectoryNode" />
+              <item name="SensitiveWordsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SensitiveWordsTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SensitiveWords" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SensitiveWords" type="462c0819:PsiDirectoryNode" />
+              <item name="SensitiveWordsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SensitiveWordsTest" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SensitiveWords" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SensitiveWords" type="462c0819:PsiDirectoryNode" />
+              <item name="SensitiveWordsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SensitiveWordsTest" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SensitiveWords" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SensitiveWords" type="462c0819:PsiDirectoryNode" />
+              <item name="SensitiveWordsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SensitiveWordsTest" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SensitiveWords" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SensitiveWords" type="462c0819:PsiDirectoryNode" />
+              <item name="SensitiveWordsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SensitiveWordsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="pc" type="462c0819:PsiDirectoryNode" />
+              <item name="conmments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SensitiveWordsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SensitiveWordsTest" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
               <item name="passport" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SensitiveWords" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SensitiveWordsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SensitiveWordsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="pc" type="462c0819:PsiDirectoryNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SensitiveWordsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SensitiveWordsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,15 +191,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SensitiveWords\testcase" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SensitiveWords\testcase\tool" />
       <recent name="D:\SensitiveWords\testcase" />
       <recent name="D:\SensitiveWords\image" />
       <recent name="D:\SensitiveWords" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SensitiveWords" />
-      <recent name="D:\SensitiveWords\testcase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -184,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test.py">
+  <component name="RunManager" selected="Python tests.Unittests in test.py (1)">
     <configuration name="CommentsIinterface" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SensitiveWords" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,7 +288,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SensitiveWords" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,7 +305,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test.py" />
+        <item itemvalue="Python tests.Unittests in test.py (1)" />
         <item itemvalue="Python.CommentsIinterface" />
         <item itemvalue="Python tests.Unittests for test.Comments.test_news_comments" />
         <item itemvalue="Python tests.Unittests in nickName.py" />
@@ -309,72 +338,56 @@
       <workItem from="1562116944479" duration="4604000" />
       <workItem from="1562123423162" duration="8260000" />
       <workItem from="1562146473813" duration="2478000" />
-      <workItem from="1562234891130" duration="540000" />
-      <workItem from="1562289220593" duration="1492000" />
-      <workItem from="1562570511444" duration="1733000" />
-      <workItem from="1562572267736" duration="247000" />
-      <workItem from="1562572539115" duration="828000" />
-      <workItem from="1562573433593" duration="116000" />
-      <workItem from="1562573571602" duration="1585000" />
-      <workItem from="1562575178297" duration="618000" />
-      <workItem from="1562575818125" duration="5509000" />
-      <workItem from="1562650632784" duration="681000" />
+      <workItem from="1562234891130" duration="84000" />
+      <workItem from="1562662053751" duration="2005000" />
+      <workItem from="1562664099324" duration="1741000" />
     </task>
-    <task id="LOCAL-00001" summary="第一次提交">
-      <created>1562235279104</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1562235279104</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 17h 52m 11s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.03 at 18h 14m 33s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 17h 54m 11s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 10m 23s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 17h 56m 21s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 11m 43s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 17h 58m 12s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 16m 20s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 18h 06m 10s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 24m 42s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 18h 10m 27s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 26m 34s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 18h 14m 12s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 32m 58s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 18h 18m 19s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 34m 57s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 18h 20m 26s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 37m 21s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.07.08 at 18h 22m 10s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py_(1) - 2019.07.09 at 17h 40m 45s.xml">
+      <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124199000" />
+    <option name="totallyTimeSpent" value="114680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.21481876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" sideWeight="0.5014006" side_tool="true" weight="0.1433902" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33407572" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.22048998" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.26138827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,10 +407,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/utils/__init__.py">
@@ -441,11 +450,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test.py" />
     <entry file="file://$PROJECT_DIR$/testcase/conmments.py" />
-    <entry file="file://$PROJECT_DIR$/testcase/pc/conmments/test_report">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/pc/conmments/test_report" />
     <entry file="file://$PROJECT_DIR$/testcase/tool/isElement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
@@ -453,13 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/soft/Python37/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/soft/Python37/Lib/unittest/loader.py" />
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -477,54 +476,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/soft/Python37/Lib/site-packages/pytesseract/pytesseract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/pc/conmments/conmments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="e#46#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/pc/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/pc/passport/nickName.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="48" column="54" selection-start-line="48" selection-start-column="16" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="1512">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
           <folding>
             <element signature="e#46#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/pc/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/pc/wiki/uploadFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="-404">
+          <caret line="66" column="71" lean-forward="true" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="e#91#102#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
