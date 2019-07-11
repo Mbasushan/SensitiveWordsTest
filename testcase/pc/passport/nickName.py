@@ -5,6 +5,7 @@ import unittest
 from selenium import webdriver
 import time
 import testcase.pc.login as login
+import testcase.tool.gl as gl
 
 class Passport(unittest.TestCase):
 
@@ -46,7 +47,8 @@ class Passport(unittest.TestCase):
                 driver.switch_to_window(handle)
                 driver.find_element_by_css_selector("label.ui_button").click()
                 time.sleep(5)
-                os.system("C:/AutomatedTesting/SensitiveWordsTest/testcase/tool/upfile.exe")
+                #打开图片
+                os.system(gl.upfile_URL)
                 time.sleep(10)
                 driver.find_element_by_link_text("确定").click()
                 # 判断是否有选择图片
