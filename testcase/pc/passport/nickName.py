@@ -11,7 +11,7 @@ class Passport(unittest.TestCase):
 
     def setUp(self):
         base_url = 'https://passport.mbalib.com'
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(gl.chrome_URL)
         self.driver.implicitly_wait(10)
         self.driver.get(base_url)
         self.driver.maximize_window()
