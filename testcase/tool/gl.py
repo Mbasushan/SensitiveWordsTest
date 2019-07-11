@@ -15,13 +15,13 @@
 
 #虚拟机
 #截图存放的地址
-Screen_URL='C:/AutomatedTesting/SensitiveWordsTest/image/screen.png'
+Screen_URL='C:/Soft/Jenkins/workspace/SensitiveWordsTest/image/screen.png'
 
 #验证码存放的地址及命名
-Code_URL='C:/AutomatedTesting/SensitiveWordsTest/image/imgCode.png'
+Code_URL='C:/Soft/Jenkins/workspace/SensitiveWordsTest/image/imgCode.png'
 
 #上传文件打开本地文件夹的exe
-upfile_URL='C:/AutomatedTesting/SensitiveWordsTest/testcase/tool/upfile.exe'
+upfile_URL='C:/Soft/Jenkins/workspace/SensitiveWordsTest/testcase/tool/upfile.exe'
 
 #谷歌驱动地址
 chrome_URL='C:/Users/Administrator/AppData/Local/google/Chrome/Application/chromedriver.exe'
