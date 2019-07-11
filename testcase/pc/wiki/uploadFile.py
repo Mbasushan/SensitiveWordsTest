@@ -11,7 +11,6 @@ from selenium.webdriver import ActionChains
 from PIL import Image
 import pytesseract
 import os
-
 import testcase.pc.login as login
 
 class UploadFile(unittest.TestCase):
@@ -40,26 +39,36 @@ class UploadFile(unittest.TestCase):
         ActionChains(driver).move_to_element(move_element).perform()
         driver.find_element_by_link_text("上传文件").click()
         time.sleep(10)
-        driver.save_screenshot('C:/AutomatedTesting/SensitiveWordsTest/image/screen.png')
+        driver.save_screenshot('D:/SensitiveWords/image/screen.png')
         imgelement = driver.find_element_by_xpath('//*[@id="upload"]/table/tbody/tr[4]/td[2]/img')  # 定位验证码
         location = imgelement.location  # 获取验证码x,y轴坐标
         size = imgelement.size  # 获取验证码的长宽
         rangle = (int(location['x']), int(location['y']), int(location['x'] + size['width']),
                   int(location['y'] + size['height']))  # 写成我们需要截取的位置坐标
-        i = Image.open("C:/AutomatedTesting/SensitiveWordsTest/image/screen.png")  # 打开截图
+        i = Image.open("D:/SensitiveWords/image/screen.png")  # 打开截图
         frame4 = i.crop(rangle)  # 使用Image的crop函数，从截图中再次截取我们需要的区域
-        frame4.save('C:/AutomatedTesting/SensitiveWordsTest/image/imgCode.png')  # 保存我们接下来的验证码图片 进行打码
-        codeimg = Image.open('C:/AutomatedTesting/SensitiveWordsTest/image/imgCode.png')
+        frame4.save('D:/SensitiveWords/image/imgCode.png')  # 保存我们接下来的验证码图片 进行打码
+        codeimg = Image.open('D:/SensitiveWords/image/imgCode.png')
         # 把彩色图像转化为灰度图像。RBG转化到HSI彩色空间，采用I分量
         imgry = codeimg.convert('L')
+        # 自定义灰度界限，大于这个值为黑色，小于这个值为白色
+        threshold = 200
+        table = []
+        for i in range(256):
+            if i < threshold:
+                table.append(0)
+            else:
+                table.append(1)
+        img_two=imgry.point(table, '1')
         # 图片转为字符串
-        code = pytesseract.image_to_string(imgry)
+        code = pytesseract.image_to_string(img_two)
+        #code=Codes.OCR_Img('D:/SensitiveWords/image/imgCode.png')
         time.sleep(5)
         print('code:', code)
         # 点击【选择文件】
         driver.find_element_by_id('wpUploadFile').click()
         time.sleep(10)
-        os.system("C:/AutomatedTesting/SensitiveWordsTest/testcase/tool/upfile.exe")
+        os.system("D:/SensitiveWords/testcase/tool/upfile.exe")
         time.sleep(10)
         # 目标文件名
         driver.find_element_by_id('wpDestFile').clear()
@@ -78,16 +87,24 @@ class UploadFile(unittest.TestCase):
         # 上传文件后返回值
         html = driver.page_source
         soup = BeautifulSoup(html, 'lxml')
-        res = soup.select_one('#content > div.firstHeading-wrap > h1')
-        print("res", res)
-        text='图片内容不合法'
-        if text in res:
-            print("拦截图片内容不合法")
+        flag=isElement.find_Element(self,'id','wpDestFile')
+        if flag:
+            error=soup.select_one("#bodyContent > span")
+            print("error:",error)
+            if "验证码错误" in error:
+                print("验证码错误")
         else:
-            print("图片内容不合法未拦截")
+            res = soup.select_one('#content > div.firstHeading-wrap > h1')
+            print("res", res)
+            text='图片内容不合法'
+            if text in res:
+                print("拦截图片内容不合法")
+            else:
+                print("图片内容不合法未拦截")
         # 删除验证码图片
-        os.remove('C:/AutomatedTesting/SensitiveWordsTest/image/screen.png')
-        os.remove('C:/AutomatedTesting/SensitiveWordsTest/image/imgCode.png')
+        os.remove('D:/SensitiveWords/image/screen.png')
+        os.remove('D:/SensitiveWords/image/imgCode.png')
+
 
 
     def tearDown(self):
